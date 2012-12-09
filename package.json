@@ -1,0 +1,16 @@
+{
+  "name": "node-kinvey-rest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "kinvey"
+  ],
+  "dependencies": {
+    "request": "~2.12",
+    "underscore": "~1.4"
+  },
+  "author": "adrianlee",
+  "license": "MIT"
+}
