@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/adrianlee/node-kinvey-rest",
   "keywords": [
     "kinvey"
   ],
