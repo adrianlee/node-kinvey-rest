@@ -1,2 +1,2 @@
 mocha:
-  ./node_modules/mocha/bin/mocha --reporter spec --timeout 10000
+	./node_modules/mocha/bin/mocha --reporter spec --timeout 10000
