@@ -9,11 +9,26 @@ A Kinvey REST API Client for node.js
 
 **Users**
 
-+ POST /user/:appKey/
-+ GET /user/:appKey/:id
-+ PUT /user/:appKey/:id
-+ POST /user/:appKey/login
-+ POST /user/:appKey/_logout
-+ DELETE /user/:appKey/:id
++ Sign up
++ Retrieve
++ Update
++ Delete
+
++ Login
++ Logout
 
 ### Not Implemented
++ Email Verification
++ Password Rest
++ Social Identities
++ User Discovery
++ User Group (Create, Retrieve, Update, Delete)
+
++ Entities (Create, Retrieve, Update, Delete)
++ Querying (Filter, Modifiers, Compounded Queries, Couting, Aggregation, Location Querying)
+
++ Relational Data (Setup, Retrieve, Limitation)
+
++ Sequences (Create, Retrieve, Update, Remove, _sequences)
+
++ File (Upload, Download, Delete)

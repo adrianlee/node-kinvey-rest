@@ -18,7 +18,8 @@ var users = [
 ];
 
 describe('users', function () {
-  var _authToken;
+  var _authToken,
+      _userId;
 
   it('can delete user object', function (done) {
     kinvey.login(users[0], function (err, res, body, success) {
@@ -65,16 +66,38 @@ describe('users', function () {
     });
   });
 
-  it('can retrieve user object by id');
-
-  it('can update user object by id');
-
   it('can login with credentials', function (done) {
     kinvey.login(users[0], function (err, res, body, success) {
       res.statusCode.should.equal(200);
       body._kmd.should.be.a('object');
       body._kmd.should.have.property('authtoken');
       _authToken = "Kinvey " + body._kmd.authtoken;
+      _userId = body._id;
+      success.should.be.true;
+      done();
+    });
+  });
+
+  it('can retrieve user object by id', function (done) {
+    kinvey.retrieve(_userId, _authToken, function (err, res, body, success) {
+      res.statusCode.should.equal(200);
+      body.username.should.equal(users[0].username);
+      success.should.be.true;
+      done();
+    });
+  });
+
+  it('can update user object by id', function (done) {
+    var newParams = {
+      age: 21,
+      gender: "male",
+    };
+
+    kinvey.update(_userId, newParams, _authToken, function (err, res, body, success) {
+      res.statusCode.should.equal(200);
+      body.username.should.equal(users[0].username);
+      body.age.should.equal(21);
+      body.gender.should.equal("male");
       success.should.be.true;
       done();
     });
@@ -105,5 +128,4 @@ describe('users', function () {
       done();
     });
   });
-
 });
