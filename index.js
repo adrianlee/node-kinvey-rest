@@ -1,1 +1,1 @@
-module.exports = require('./lib/kinvey-rest');
+module.exports = new require('./lib/kinvey-rest');

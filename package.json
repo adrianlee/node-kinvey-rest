@@ -11,6 +11,13 @@
     "request": "~2.12",
     "underscore": "~1.4"
   },
-  "author": "adrianlee",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "async": "*"
+  },
+  "author": {
+    "name": "adrianlee"
+    },
   "license": "MIT"
 }
