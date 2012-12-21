@@ -13,8 +13,7 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*",
-    "async": "*"
+    "should": "*"
   },
   "author": {
     "name": "adrianlee"
