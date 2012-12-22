@@ -25,7 +25,6 @@ kinvey.login(userCredentials, function(err, res, body, success) {
         auth = "Kinvey " + body._kmd.authtoken;
     }
 
-    console.log(body)
     user_id = body._id;
 
     // Retreive self

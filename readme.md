@@ -5,7 +5,7 @@ A Kinvey REST API Client for node.js
 ### Implemented
 **Appdata**
 
-+ GET /appdata/:appKey
++ Ping
 
 **Users**
 
@@ -13,7 +13,6 @@ A Kinvey REST API Client for node.js
 + Retrieve
 + Update
 + Delete
-
 + Login
 + Logout
 

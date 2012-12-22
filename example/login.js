@@ -15,7 +15,6 @@ userCredentials = {
     password: "secret"
 };
 
-
 // Login and aquire authtoken
 kinvey.login(userCredentials, function(err, res, body, success) {
     var auth;
@@ -38,7 +37,7 @@ kinvey.login(userCredentials, function(err, res, body, success) {
             // Ping with expired authtoken
             kinvey.ping(auth, function(e, r, b, s) {
                 if (r.statusCode == 401) {
-                    console.log("Authtoken Expired")
+                    console.log("Authtoken Expired");
                 }
 
                 // Ping without authtoken

@@ -29,7 +29,7 @@ kinvey.signup(userCredentials, function(err, res, body, success) {
     }
 
     user_id = body._id;
-    console.log(body)
+    console.log(body);
 
     if (success) {
         // soft delete
