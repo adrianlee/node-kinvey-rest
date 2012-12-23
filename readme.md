@@ -1,6 +1,17 @@
 # node-kinvey-rest
 A Kinvey REST API Client for node.js
 
+## Install
+Coming Soon <pre>npm install node-kinvey-rest</pre>
+
+Or from source:
+
+<pre>
+git clone git://github.com/adrianlee/node-kinvey-rest.git
+cd node-kinvey-rest
+npm link
+</pre>
+
 ## API Coverage
 ### Implemented
 **App**
@@ -34,3 +45,6 @@ A Kinvey REST API Client for node.js
 + Sequences (Create, Retrieve, Update, Remove, _sequences)
 
 + File (Upload, Download, Delete)
+
+## Test
+`make mocha`
