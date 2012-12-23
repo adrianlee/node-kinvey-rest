@@ -18,7 +18,7 @@ A Kinvey REST API Client for node.js
 
 ### Not Implemented
 + Email Verification
-+ Password Rest
++ Password Reset
 + Social Identities
 + User Discovery
 + User Group (Create, Retrieve, Update, Delete)
