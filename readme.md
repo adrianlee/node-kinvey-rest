@@ -3,7 +3,7 @@ A Kinvey REST API Client for node.js
 
 ## API Coverage
 ### Implemented
-**Appdata**
+**App**
 
 + Ping
 
@@ -15,15 +15,18 @@ A Kinvey REST API Client for node.js
 + Delete
 + Login
 + Logout
-
-### Not Implemented
 + Email Verification
 + Password Reset
+
+**Data Store**
+
++ Entities (Create, Retrieve, Update, Delete)
+
+### Not Implemented
 + Social Identities
 + User Discovery
 + User Group (Create, Retrieve, Update, Delete)
 
-+ Entities (Create, Retrieve, Update, Delete)
 + Querying (Filter, Modifiers, Compounded Queries, Couting, Aggregation, Location Querying)
 
 + Relational Data (Setup, Retrieve, Limitation)
