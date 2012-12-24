@@ -1,6 +1,5 @@
 var config = require('./config'),
     should = require('should'),
-    async = require('async'),
     Kinvey = require('../index');
 
 var kinvey = new Kinvey(config.appKey, config.appSecret, config.masterSecret);
