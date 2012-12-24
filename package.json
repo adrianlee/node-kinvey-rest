@@ -1,11 +1,15 @@
 {
   "name": "node-kinvey-rest",
   "version": "0.1.0",
-  "description": "",
+  "description": "A Kinvey REST API Client for node.js",
   "main": "index.js",
   "repository": "https://github.com/adrianlee/node-kinvey-rest",
   "keywords": [
-    "kinvey"
+    "kinvey",
+    "api",
+    "baas",
+    "client",
+    "rest"
   ],
   "dependencies": {
     "request": "~2.12",
