@@ -5,7 +5,7 @@ var config = require('./config'),
 var kinvey = new Kinvey(config.appKey, config.appSecret, config.masterSecret);
 
 
-describe.only('Data Store', function () {
+describe('Data Store', function () {
   var user = {
     username: "johndoe",
     password: "secret"
