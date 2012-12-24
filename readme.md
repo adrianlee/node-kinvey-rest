@@ -2,14 +2,16 @@
 A Kinvey REST API Client for node.js
 
 ## Install
-Coming Soon <pre>npm install node-kinvey-rest</pre>
+``` bash
+  npm install node-kinvey-rest
+```
 
 Or from source:
 
 ``` bash
-git clone git://github.com/adrianlee/node-kinvey-rest.git
-cd node-kinvey-rest
-npm link
+  git clone git://github.com/adrianlee/node-kinvey-rest.git
+  cd node-kinvey-rest
+  npm link
 ```
 
 ## Usage
@@ -20,7 +22,7 @@ npm link
     appKey: XXXXXXXXXXXX,
     appSecret: XXXXXXXXXXXX,
     masterSecret: XXXXXXXXXXXX
-  }
+  };
 
   var kinvey = new Kinvey(config.appKey, config.appSecret, config.masterSecret);
 
@@ -58,5 +60,5 @@ npm link
 
 ## Run Tests
 ``` bash
-make mocha
+  make mocha
 ```
