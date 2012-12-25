@@ -31,6 +31,8 @@ Or from source:
   });
 ```
 
+All callbacks are passed back with the following parameters, `function(err, res, body, success) { ... }`
+
 ## API Coverage
 ### Implemented
 > ##### App
